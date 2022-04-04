@@ -1,0 +1,64 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.navbar {
+  padding-top: 10px;
+  width: 100vw;
+  height: 8vh;
+  background-color: rgb(52, 56, 56);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.left {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+#home {
+  color: white;
+  text-decoration: none;
+  margin-top: 5px;
+}
+button {
+  width: 55px;
+  height: 30px;
+  color: green;
+  background-color: rgb(51, 60, 51);
+}
+#searchbox {
+  height: 30px;
+}
+.container {
+  width: 60vw;
+  margin-left: 25vw;
+  margin-top:20px;
+}
+.addNote{
+ 
+  background-color: rgb(36, 69, 114);
+  width: 60vw;
+  height: 30vh;
+  border: 50px;
+  border-color: black;
+}
+#ref1{
+  margin-left: 10px;
+  color: white;
+}
+#ref2{
+  margin-left: 10px;
+ 
+}
+#addbtn{
+  color: black;
+  background-color: aqua;
+  margin-top: 12px;
+  border-radius: 5px 1px;
+  width: 70px;
+  margin-bottom: 10px;
+}
